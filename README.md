@@ -11,8 +11,8 @@ In this folder, you will find projects that explore image processing techniques,
 ## [Machine Learning Projects](https://github.com/Vaibhavkirtankar/Projects/tree/a5166ba79d328f691cef04807d1c3a1e3ffd689d/Machine%20Learning%20Projects%20)
 The Machine Learning Projects folder contains projects that utilize various machine learning algorithms and techniques. It covers supervised learning, unsupervised learning, and reinforcement learning projects across different domains.
 
-## [NLP Projects](https://github.com/Vaibhavkirtankar/Projects/tree/a5166ba79d328f691cef04807d1c3a1e3ffd689d/NLP%20Projects)
-In the NLP Projects folder, you can find projects related to natural language processing (NLP). It includes projects focused on text classification, sentiment analysis, language translation, and other NLP tasks.
+## [AI, LLM , NLP Projects](https://github.com/Vaibhavkirtankar/Projects/tree/a5166ba79d328f691cef04807d1c3a1e3ffd689d/NLP%20Projects)
+In the AI, LLM , NLP Projects folder, you can find projects related to natural language processing (NLP). It includes projects focused on text classification, sentiment analysis, language translation, and other NLP tasks.
 ##
 Feel free to explore the projects in each category and dive into the code and documentation for a deeper understanding. Each project folder contains a README file with specific details and instructions.
 

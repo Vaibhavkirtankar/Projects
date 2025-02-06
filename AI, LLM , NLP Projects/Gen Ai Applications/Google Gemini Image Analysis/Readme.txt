@@ -1,4 +1,4 @@
-# Gemini Image Analysis Streamlit App
+Gemini Image Analysis Streamlit App
 
 Welcome to the Gemini Image Analysis Streamlit App! 
 This project uses Google's Gemini AI model to analyze images and provide text-based descriptions or insights. 

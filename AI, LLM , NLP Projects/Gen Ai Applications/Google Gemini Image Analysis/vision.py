@@ -44,7 +44,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Loading Our Google API Key from .env file
+# Loading Our Google API Key from .env file incase you dont have it, 
+# create .env file and paste this "GOOGLE_API_KEY="Your API Key Here""
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))  
 
 # Loading Gemini Pro Model and Get responses 
@@ -54,20 +55,20 @@ def get_gemini_response(input, image):
     if input != "":
         response = model.generate_content({
             "parts": [
-                {"text": input},  # Add the input text part
+                {"text": input},  
                 {"inline_data": {
-                    "mime_type": "image/png",  # Assuming the uploaded image is PNG
-                    "data": image  # Image data in base64 format
+                    "mime_type": "image/png", 
+                    "data": image  
                 }}
             ]
         })
     else:
         response = model.generate_content({
             "parts": [
-                {"text": ""},  # Empty text if no input is provided
+                {"text": ""},  
                 {"inline_data": {
-                    "mime_type": "image/png",  # Assuming the uploaded image is PNG
-                    "data": image  # Image data in base64 format
+                    "mime_type": "image/png", 
+                    "data": image  
                 }}
             ]
         })
